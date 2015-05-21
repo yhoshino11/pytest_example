@@ -7,7 +7,7 @@
   $ virtualenv .venv
   $ source .venv/bin/activate
   (.venv)$ pip install -r requirements.txt
-  (.venv)$ py.test
+  (.venv)$ py.test --cov bankaccount.py
   (.venv)$ deactivate # exit virtualenv
   $ rm -rf .venv # destroy virtualenv
 ```
