@@ -4,6 +4,10 @@
 ```sh
   $ git clone https://github.com/yhoshino11/pytest_example.git
   $ cd pytest_example/
-  $ sudo pip install -r requirements.txt
-  $ py.test
+  $ virtualenv .venv
+  $ source .venv/bin/activate
+  (.venv)$ pip install -r requirements.txt
+  (.venv)$ py.test
+  (.venv)$ deactivate # exit virtualenv
+  $ rm -rf .venv # destroy virtualenv
 ```
