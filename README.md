@@ -11,3 +11,9 @@
   (.venv)$ deactivate # exit virtualenv
   $ rm -rf .venv # destroy virtualenv
 ```
+
+### with Tox
+```sh
+  (.venv)$ tox -e py27
+  (.venv)$ tox -e flake8
+```
