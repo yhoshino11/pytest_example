@@ -1,0 +1,10 @@
+actionid: flake8
+msg: getenv
+cmdargs: ['/home/vagrant/bpbook/testproject/.venv/bin/python', '-m', 'virtualenv', '--python', '/home/vagrant/bpbook/testproject/.venv/bin/python2.7', 'flake8']
+env: {'PATH': '/home/vagrant/bpbook/testproject/pytest/.tox/flake8/bin:/home/vagrant/bpbook/testproject/.venv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games', 'VIRTUAL_ENV': '/home/vagrant/bpbook/testproject/pytest/.tox/flake8', 'PYTHONHASHSEED': '2296641644'}
+
+Using real prefix '/usr'
+New python executable in flake8/bin/python2.7
+Also creating executable in flake8/bin/python
+Installing setuptools, pip...done.
+Running virtualenv with interpreter /home/vagrant/bpbook/testproject/.venv/bin/python2.7

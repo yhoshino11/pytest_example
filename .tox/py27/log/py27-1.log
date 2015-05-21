@@ -1,0 +1,13 @@
+actionid: py27
+msg: getenv
+cmdargs: [local('/home/vagrant/bpbook/testproject/pytest/.tox/py27/bin/pip'), 'install', 'pytest']
+env: {'PATH': '/home/vagrant/bpbook/testproject/pytest/.tox/py27/bin:/home/vagrant/bpbook/testproject/.venv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games', 'VIRTUAL_ENV': '/home/vagrant/bpbook/testproject/pytest/.tox/py27', 'PYTHONHASHSEED': '1719766283'}
+
+Collecting pytest
+/home/vagrant/bpbook/testproject/pytest/.tox/py27/local/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/util/ssl_.py:79: InsecurePlatformWarning: A true SSLContext object is not available. This prevents urllib3 from configuring SSL appropriately and may cause certain SSL connections to fail. For more information, see https://urllib3.readthedocs.org/en/latest/security.html#insecureplatformwarning.
+  InsecurePlatformWarning
+  Using cached pytest-2.7.1-py2.py3-none-any.whl
+Collecting py>=1.4.25 (from pytest)
+  Using cached py-1.4.27-py2.py3-none-any.whl
+Installing collected packages: py, pytest
+Successfully installed py-1.4.27 pytest-2.7.1
